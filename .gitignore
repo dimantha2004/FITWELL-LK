@@ -1,0 +1,24 @@
+# Secrets - never commit
+fitwell-backend/config/application-local.properties
+.env
+*.jks
+*.keystore
+key.properties
+
+# Build output
+fitwell-backend/target/
+fitwell_app/build/
+fitwell_app/.dart_tool/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+~$*
+
+# Large deliverables are shared through Google Drive, not Git
+*.apk
+*.mp4
+docs/report/*.pptx
