@@ -1,0 +1,6 @@
+# Copy to config/application-local.properties (gitignored) and run from the fitwell-backend folder with:
+#   mvn spring-boot:run -Dspring-boot.run.profiles=local
+spring.datasource.username=root
+spring.datasource.password=CHANGE_ME
+# Generate with: openssl rand -base64 48
+app.jwt.secret=CHANGE_ME_BASE64_SECRET
